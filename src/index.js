@@ -6,9 +6,11 @@ import 'tachyons';
 import App from './containers/App';
 
 
+const store = createStore(rootReducer)
+
 ReactDOM.render(
   <React.StrictMode>  
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
